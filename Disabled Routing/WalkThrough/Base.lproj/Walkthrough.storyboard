@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jp0-3G-gEs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Frutiger-LT-Std-65-Bold.ttf">
+            <string>FrutigerLTStd-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Walk Through Page View Controller-->
+        <scene sceneID="0cH-T8-TXq">
+            <objects>
+                <pageViewController storyboardIdentifier="WalkThroughPageViewController" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Jp0-3G-gEs" customClass="WalkThroughPageViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DV0-qi-GSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58" y="-642"/>
+        </scene>
+        <!--First Tutorial View Controller-->
+        <scene sceneID="pJA-rm-egg">
+            <objects>
+                <viewController storyboardIdentifier="FirstTutorialViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ub9-nT-N2Z" customClass="FirstTutorialViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oLi-40-JMa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01-min" translatesAutoresizingMaskIntoConstraints="NO" id="Qt2-c7-cC3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5vA-sh-0Ji">
+                                <rect key="frame" x="0.0" y="580.5" width="375" height="86.5"/>
+                                <connections>
+                                    <action selector="skipButtonTapped:" destination="Ub9-nT-N2Z" eventType="touchUpInside" id="vKF-O8-JOA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64705882349999999" green="0.0" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5vA-sh-0Ji" firstAttribute="leading" secondItem="aiC-Pl-fCJ" secondAttribute="leading" id="EBX-NQ-WZi"/>
+                            <constraint firstItem="aiC-Pl-fCJ" firstAttribute="trailing" secondItem="Qt2-c7-cC3" secondAttribute="trailing" id="Kar-oo-QQU"/>
+                            <constraint firstItem="aiC-Pl-fCJ" firstAttribute="bottom" secondItem="5vA-sh-0Ji" secondAttribute="bottom" id="KtL-yb-CYx"/>
+                            <constraint firstItem="aiC-Pl-fCJ" firstAttribute="bottom" secondItem="Qt2-c7-cC3" secondAttribute="bottom" id="c8K-7U-RaU"/>
+                            <constraint firstItem="Qt2-c7-cC3" firstAttribute="top" secondItem="aiC-Pl-fCJ" secondAttribute="top" id="iGU-GL-eNN"/>
+                            <constraint firstItem="Qt2-c7-cC3" firstAttribute="leading" secondItem="aiC-Pl-fCJ" secondAttribute="leading" id="suU-Mq-4LD"/>
+                            <constraint firstItem="5vA-sh-0Ji" firstAttribute="height" secondItem="oLi-40-JMa" secondAttribute="height" multiplier="0.13" id="uWg-jW-SiD"/>
+                            <constraint firstItem="aiC-Pl-fCJ" firstAttribute="trailing" secondItem="5vA-sh-0Ji" secondAttribute="trailing" id="xXF-ab-ucF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aiC-Pl-fCJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rd5-qx-Ssp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="751" y="-618"/>
+        </scene>
+        <!--Page Two View Controller-->
+        <scene sceneID="4cl-JI-lgC">
+            <objects>
+                <viewController storyboardIdentifier="PageTwoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="q35-PE-GJs" customClass="PageTwoViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UVU-pS-i9P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="VQp-2S-hVY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9H5-oM-wdM" firstAttribute="trailing" secondItem="VQp-2S-hVY" secondAttribute="trailing" id="2dN-5g-zEE"/>
+                            <constraint firstItem="VQp-2S-hVY" firstAttribute="leading" secondItem="UVU-pS-i9P" secondAttribute="leading" id="3he-Dt-LzX"/>
+                            <constraint firstItem="VQp-2S-hVY" firstAttribute="top" secondItem="UVU-pS-i9P" secondAttribute="top" id="E5d-xK-Hmp"/>
+                            <constraint firstItem="9H5-oM-wdM" firstAttribute="bottom" secondItem="VQp-2S-hVY" secondAttribute="bottom" id="ZfI-Yc-6bT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9H5-oM-wdM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qIz-cr-PRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1484" y="-643"/>
+        </scene>
+        <!--Page Five View Controller-->
+        <scene sceneID="nbr-uq-UIB">
+            <objects>
+                <viewController storyboardIdentifier="PageFiveViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gBQ-bT-E8O" customClass="PageFiveViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RXl-q8-4bc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="U7i-CV-dWb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="U7i-CV-dWb" firstAttribute="leading" secondItem="G3Q-h2-Y0V" secondAttribute="leading" id="VoB-Id-AI5"/>
+                            <constraint firstItem="U7i-CV-dWb" firstAttribute="top" secondItem="RXl-q8-4bc" secondAttribute="top" id="kaa-VZ-jDW"/>
+                            <constraint firstItem="G3Q-h2-Y0V" firstAttribute="bottom" secondItem="U7i-CV-dWb" secondAttribute="bottom" id="kyB-SI-B9Q"/>
+                            <constraint firstItem="U7i-CV-dWb" firstAttribute="trailing" secondItem="G3Q-h2-Y0V" secondAttribute="trailing" id="pB0-e5-mHm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="G3Q-h2-Y0V"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ej-yc-TR4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="556" y="811"/>
+        </scene>
+        <!--Page Three View Controller-->
+        <scene sceneID="UAZ-Jf-s2M">
+            <objects>
+                <viewController storyboardIdentifier="PageThreeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="YCW-Go-Vh1" customClass="PageThreeViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yg3-gR-JRH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="9C8-OW-HVu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="9C8-OW-HVu" secondAttribute="bottom" id="ONX-af-xq2"/>
+                            <constraint firstItem="9C8-OW-HVu" firstAttribute="top" secondItem="yg3-gR-JRH" secondAttribute="top" id="V4P-xj-b1a"/>
+                            <constraint firstItem="9C8-OW-HVu" firstAttribute="leading" secondItem="5Cg-3a-sZn" secondAttribute="leading" id="rSX-c6-wxa"/>
+                            <constraint firstAttribute="trailing" secondItem="9C8-OW-HVu" secondAttribute="trailing" id="rtO-hf-e6X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Cg-3a-sZn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jOF-MU-bKY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2182" y="-618"/>
+        </scene>
+        <!--Page Four View Controller-->
+        <scene sceneID="q4v-5P-YZS">
+            <objects>
+                <viewController storyboardIdentifier="PageFourViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rtC-f6-27n" customClass="PageFourViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bZ3-Os-XKK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="2Cs-kk-J2d">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2Cs-kk-J2d" firstAttribute="top" secondItem="0Na-ed-jm9" secondAttribute="top" id="40l-L8-Ijw"/>
+                            <constraint firstAttribute="bottom" secondItem="2Cs-kk-J2d" secondAttribute="bottom" id="Aag-sz-paZ"/>
+                            <constraint firstAttribute="trailing" secondItem="2Cs-kk-J2d" secondAttribute="trailing" id="dmL-iu-Z1e"/>
+                            <constraint firstItem="2Cs-kk-J2d" firstAttribute="leading" secondItem="0Na-ed-jm9" secondAttribute="leading" id="ljQ-Pu-TwS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0Na-ed-jm9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drB-ih-fG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2926" y="-618"/>
+        </scene>
+        <!--Last Tutorial View Controller-->
+        <scene sceneID="FFq-LF-Ame">
+            <objects>
+                <viewController storyboardIdentifier="LastTutorialViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GqH-hi-aQZ" customClass="LastTutorialViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kn8-PN-y73">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="21-min" translatesAutoresizingMaskIntoConstraints="NO" id="R0N-aX-h7x">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pZb-Rt-fzd" customClass="UIBorderView" customModule="Disabled_Routing" customModuleProvider="target">
+                                <rect key="frame" x="275" y="567" width="100" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRB-7N-sw4" customClass="CustomButton" customModule="Disabled_Routing" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="84" height="84"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="FrutigerLTStd-Bold" family="Frutiger LT Std" pointSize="24"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startButtonTapped:" destination="GqH-hi-aQZ" eventType="touchUpInside" id="qee-BM-2Tw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="kRB-7N-sw4" firstAttribute="leading" secondItem="pZb-Rt-fzd" secondAttribute="leading" id="C1a-rH-l6q"/>
+                                    <constraint firstAttribute="width" constant="100" id="YLc-LX-m8L"/>
+                                    <constraint firstAttribute="bottom" secondItem="kRB-7N-sw4" secondAttribute="bottom" constant="16" id="Yv9-Py-qoc"/>
+                                    <constraint firstItem="kRB-7N-sw4" firstAttribute="top" secondItem="pZb-Rt-fzd" secondAttribute="top" id="i2Z-Dv-mKe"/>
+                                    <constraint firstAttribute="height" constant="100" id="ppu-E7-1hn"/>
+                                    <constraint firstAttribute="trailing" secondItem="kRB-7N-sw4" secondAttribute="trailing" constant="16" id="q4W-Mo-hnf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="5" height="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64705882349999999" green="0.0" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="rLl-hx-DAp" firstAttribute="bottom" secondItem="R0N-aX-h7x" secondAttribute="bottom" id="9D5-Vj-ORK"/>
+                            <constraint firstItem="R0N-aX-h7x" firstAttribute="leading" secondItem="rLl-hx-DAp" secondAttribute="leading" id="9O2-U9-jzl"/>
+                            <constraint firstItem="R0N-aX-h7x" firstAttribute="trailing" secondItem="rLl-hx-DAp" secondAttribute="trailing" id="PNv-7R-XRB"/>
+                            <constraint firstItem="rLl-hx-DAp" firstAttribute="bottom" secondItem="pZb-Rt-fzd" secondAttribute="bottom" id="YaY-gZ-paa"/>
+                            <constraint firstItem="R0N-aX-h7x" firstAttribute="top" secondItem="kn8-PN-y73" secondAttribute="top" id="peD-jH-g7D"/>
+                            <constraint firstItem="rLl-hx-DAp" firstAttribute="trailing" secondItem="pZb-Rt-fzd" secondAttribute="trailing" id="wC8-3p-fz2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rLl-hx-DAp"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonStart" destination="kRB-7N-sw4" id="iRv-vg-1Ed"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wcq-Pg-rR8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2557.5999999999999" y="810.94452773613204"/>
+        </scene>
+        <!--Page Nine View Controller-->
+        <scene sceneID="5I8-Hh-2lb">
+            <objects>
+                <viewController storyboardIdentifier="PageNineViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TLK-hc-5g8" customClass="PageNineViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w40-bN-f55">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="tCI-6f-roK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tCI-6f-roK" firstAttribute="leading" secondItem="w40-bN-f55" secondAttribute="leading" id="aNf-9M-v5U"/>
+                            <constraint firstItem="tCI-6f-roK" firstAttribute="top" secondItem="w40-bN-f55" secondAttribute="top" id="k5v-EM-4dH"/>
+                            <constraint firstItem="4C2-5W-bWX" firstAttribute="bottom" secondItem="tCI-6f-roK" secondAttribute="bottom" id="lmU-eO-RkO"/>
+                            <constraint firstItem="4C2-5W-bWX" firstAttribute="trailing" secondItem="tCI-6f-roK" secondAttribute="trailing" id="uiV-9O-YJk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4C2-5W-bWX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Wd-YU-fAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="1574"/>
+        </scene>
+        <!--Page Eight View Controller-->
+        <scene sceneID="gT8-7k-vil">
+            <objects>
+                <viewController storyboardIdentifier="PageEightViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="P8w-rF-B87" customClass="PageEightViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p3J-DD-42I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qkd-K7-fE1">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="K7i-V8-xX6" firstAttribute="bottom" secondItem="Qkd-K7-fE1" secondAttribute="bottom" id="7er-J9-WcN"/>
+                            <constraint firstItem="Qkd-K7-fE1" firstAttribute="top" secondItem="p3J-DD-42I" secondAttribute="top" id="Bh2-ms-8vh"/>
+                            <constraint firstItem="K7i-V8-xX6" firstAttribute="trailing" secondItem="Qkd-K7-fE1" secondAttribute="trailing" id="anW-gf-qbh"/>
+                            <constraint firstItem="Qkd-K7-fE1" firstAttribute="leading" secondItem="p3J-DD-42I" secondAttribute="leading" id="uFg-SG-vMD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="K7i-V8-xX6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tc3-S3-iAB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="556" y="1574"/>
+        </scene>
+        <!--Page Seven View Controller-->
+        <scene sceneID="o1n-zr-4yn">
+            <objects>
+                <viewController storyboardIdentifier="PageSevenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZLI-os-ufI" customClass="PageSevenViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="He4-c1-LYt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="1X6-JD-TIv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="K41-NY-pub" firstAttribute="trailing" secondItem="1X6-JD-TIv" secondAttribute="trailing" id="45d-7t-08o"/>
+                            <constraint firstItem="1X6-JD-TIv" firstAttribute="top" secondItem="He4-c1-LYt" secondAttribute="top" id="65q-v9-nYQ"/>
+                            <constraint firstItem="1X6-JD-TIv" firstAttribute="leading" secondItem="He4-c1-LYt" secondAttribute="leading" id="Z8W-Yr-lXo"/>
+                            <constraint firstItem="K41-NY-pub" firstAttribute="bottom" secondItem="1X6-JD-TIv" secondAttribute="bottom" id="t8u-Wp-vq4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="K41-NY-pub"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rvE-ZP-9Ri" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1294" y="811"/>
+        </scene>
+        <!--Page Six View Controller-->
+        <scene sceneID="VQx-mM-5fo">
+            <objects>
+                <viewController storyboardIdentifier="PageSixViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="j3z-CU-Cgh" customClass="PageSixViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vhh-px-Fmt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="MTO-sj-Etp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pMs-yw-WZQ" firstAttribute="bottom" secondItem="MTO-sj-Etp" secondAttribute="bottom" id="0gI-Pd-W2Z"/>
+                            <constraint firstItem="pMs-yw-WZQ" firstAttribute="trailing" secondItem="MTO-sj-Etp" secondAttribute="trailing" id="7IZ-jl-yyg"/>
+                            <constraint firstItem="MTO-sj-Etp" firstAttribute="top" secondItem="vhh-px-Fmt" secondAttribute="top" id="rwX-Ig-18p"/>
+                            <constraint firstItem="MTO-sj-Etp" firstAttribute="leading" secondItem="vhh-px-Fmt" secondAttribute="leading" id="sNe-9S-qR8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pMs-yw-WZQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j4S-Wl-cZZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2447" y="1675"/>
+        </scene>
+        <!--Tutorial Screen View Controller-->
+        <scene sceneID="vx8-0a-kSa">
+            <objects>
+                <viewController storyboardIdentifier="TutorialScreenViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0dW-Sn-Nqx" customClass="TutorialScreenViewController" customModule="Disabled_Routing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ra3-Ow-NgB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="zP8-E3-jSR">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cu8-bA-MdQ">
+                                <rect key="frame" x="0.0" y="580.5" width="375" height="86.5"/>
+                                <connections>
+                                    <action selector="skipButtonTapped:" destination="0dW-Sn-Nqx" eventType="touchUpInside" id="lUQ-9p-1FL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64705882349999999" green="0.0" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YAu-Fj-X99" firstAttribute="trailing" secondItem="zP8-E3-jSR" secondAttribute="trailing" id="5JY-qb-KJ5"/>
+                            <constraint firstItem="YAu-Fj-X99" firstAttribute="bottom" secondItem="cu8-bA-MdQ" secondAttribute="bottom" id="9xT-G6-xcE"/>
+                            <constraint firstItem="YAu-Fj-X99" firstAttribute="bottom" secondItem="zP8-E3-jSR" secondAttribute="bottom" id="J0Z-wN-mkQ"/>
+                            <constraint firstItem="YAu-Fj-X99" firstAttribute="trailing" secondItem="cu8-bA-MdQ" secondAttribute="trailing" id="MhV-SO-99S"/>
+                            <constraint firstItem="zP8-E3-jSR" firstAttribute="leading" secondItem="YAu-Fj-X99" secondAttribute="leading" id="iMg-7Z-Vcf"/>
+                            <constraint firstItem="zP8-E3-jSR" firstAttribute="top" secondItem="YAu-Fj-X99" secondAttribute="top" id="mGH-tQ-jXd"/>
+                            <constraint firstItem="cu8-bA-MdQ" firstAttribute="leading" secondItem="YAu-Fj-X99" secondAttribute="leading" id="xjO-Pb-unL"/>
+                            <constraint firstItem="cu8-bA-MdQ" firstAttribute="height" secondItem="Ra3-Ow-NgB" secondAttribute="height" multiplier="0.13" id="zcs-6C-gGN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YAu-Fj-X99"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageViewTutorial" destination="zP8-E3-jSR" id="IOY-cg-Af1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xOF-u4-fwO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="01-min" width="844" height="1500"/>
+        <image name="1" width="202.55999755859375" height="360"/>
+        <image name="2" width="202.55999755859375" height="360.239990234375"/>
+        <image name="21-min" width="16" height="16"/>
+        <image name="3" width="202.55999755859375" height="360"/>
+        <image name="4" width="202.55999755859375" height="360"/>
+        <image name="5" width="220.55999755859375" height="391.92001342773438"/>
+        <image name="6" width="230.16000366210938" height="409.20001220703125"/>
+        <image name="7" width="219.36000061035156" height="389.760009765625"/>
+        <image name="8" width="220.55999755859375" height="391.92001342773438"/>
+        <image name="9" width="221.27999877929688" height="393.60000610351562"/>
+    </resources>
+</document>

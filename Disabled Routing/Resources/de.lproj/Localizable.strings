@@ -1,0 +1,489 @@
+/* 
+  Localizable.strings
+  Hürdenlose Navigation
+
+  Created by Hürdenlose Navigation on 15/02/18.
+  Copyright © 2018 Hürdenlose Navigation. All rights reserved.
+*/
+
+//App Name
+"APP_NAME" = "Hürdenlose Navigation";
+//Home screen
+
+/*Option 1 Button Title*/
+"ROUTE_PLANNER" = "Routenplaner";
+
+/*Option 2 Button Title*/
+"SUGGESTION" = "Dateneingabe";
+
+/*Sidemenu option Acknowledgement*/
+"ACKNOWLEDGEMENTS" = "Wissen";
+
+/*Sidemenu option Contact Us*/
+"CONTACT" = "Kontakt";
+
+/*Sidemenu option Disclaimer*/
+"DISCLAIMER"="Haftungsausschluss";
+
+/*Sidemenu option Legal*/
+"LEGAL" = "Rechtliches";
+
+/*IMPRINT*/
+"IMPRINT" = "Impressum/Danksagung";
+
+/*Setting*/
+"Setting" = "Setting";
+
+/*Enable Location*/
+"Enable Location" = "Enable Location";
+
+/*Enable location message*/
+"Please enable location for access all feature of this application" = "Please enable location for access all feature of this application";
+
+/*Settings*/
+"Settings" = "Settings";
+
+/*Route Planner*/
+"Route Planner" = "Route Planner";
+
+/*Suggestions*/
+"Suggestions" = "Suggestions";
+
+/*Generic error message*/
+"Ops Something went wrong. Please try again after sometime." = "Ops Something went wrong. Please try again after sometime.";
+
+/*Internet is not available*/
+"Internet is not available" = "Internet is not available";
+
+/*Incorrect request message*/
+"The request is incorrect and therefore can not be processed" = "The request is incorrect and therefore can not be processed";
+
+"LEGAL_TEXT" = "Der Programm-Code der gesamten\nAnwendung und Funktion unterliegt der\nEuropean Union Public Licence (EUPL).Der Programm-Code ist via\nwww.github.com/MatchRider/Routing\nabrufbar.";
+/*Skip*/
+"SKIP_BUTTON_TITLE" = "Skip";
+
+/*Cannot load maps message*/
+"Cannot load maps message" = "Can not load maps without all the permissions granted";
+
+/*GPS Settings*/
+"GPS Settings message" = "GPS is not enabled. Do you want to go to location setting?";
+
+/*OK*/
+"OK" = "OK";
+/*Source identifier*/
+"A" = "A";
+"B" = "B";
+
+/*Enter Source*/
+"Enter Source" = "von";
+
+/*Enter Destination*/
+"Enter Destination" = "nach";
+
+/*Go*/
+"GO_BUTTON_TITLE" = "los!";
+
+/*Coming soon*/
+"Coming soon" = "Coming soon";
+
+/*Please provide feedback for*/
+"Please provide feedback for" = "Please provide feedback for";
+
+/*Cancel*/
+"CANCEL" = "CANCEL";
+
+/*min*/
+"min" = "min";
+
+/*km*/
+"km" = "km";
+
+/*Capture Question*/
+"Capture Question"="What do you want to capture ?";
+
+/*First Capture Option*/
+"First Capture Option" = "1.Information about a waypoint/distance?";
+
+/*Second Capture Option*/
+"Second Capture Option" = "2.Information about a temporary obstacles?";
+
+/*Improve routing title*/
+"Improve routing title" = "Need to improve routing?";
+
+/*Info title question*/
+"Info title question" = "What information to a waypoint do you have for the community?";
+
+/*Finish*/
+"Finish" = "Finish";
+
+/*Successfull feedback posted message*/
+"Successfull feedback posted message" = "Feedback posted successfully with ID:";
+
+/*Thanks message*/
+"THANK_YOU_TEXT" = "Danke für deinen Beitrag!";
+
+/*Home*/
+"Home" = "Home";
+
+/*Location selection message*/
+"Location selection message" = "Please select different source and destination";
+
+
+
+/*Permanent Obstacle*/
+"PERMANENT_OBSTACLE" = "Permanents Hindernis";
+
+/*Paved*/
+"Paved" = "gepflastert";
+
+/*Asphalt*/
+"Asphalt" = "Asphaltiert";
+/*Concrete*/
+"Concrete" = "Beton";
+
+/*Asphalt or Concrete*/
+"Asphalt/Concrete" = "Asphaltiert oder Beton";
+
+/*Paving Stones*/
+"Paving Stones" = "Pflastersteine";
+
+/*Paving stones or better*/
+"Paving stones or better" = "Pflastersteine oder besser";
+
+/*Cobblestone*/
+"Cobblestone" = "Kopfsteinpflaster";
+
+/*Cobblestone or better*/
+"Cobblestone or better" = "Kopfsteinpflaster oder besser";
+
+/*All traversable surfaces*/
+"All traversable surfaces" = "Alle Oberflächen";
+
+/*Grass Paver*/
+"Grass Paver" = "Rasengittersteine";
+
+/*Compacted*/
+"Compacted" = "Schotter oder besser";
+
+/*Gravel*/
+"Gravel" = "Kies";
+/*YES_TITLE*/
+"YES_TITLE" = "Ja";
+/*No*/
+"NO_TITLE" = "Keine";
+
+/*FROM_LOCATION_PLACEHOLDER*/
+"FROM_LOCATION_PLACEHOLDER" = "Von";
+
+/*TO_LOCATION_PLACEHOLDER*/
+"TO_LOCATION_PLACEHOLDER" = "nach";
+
+/*CAPTURE_TITLE*/
+"IMPROVE_ROUTING_TITLE" = "Möchtest du das Routing verbessern?";
+
+/*CAPTURE_QUESTION*/
+"CAPTURE_QUESTION" = "Was möchten Sie erfassen?";
+
+/*FEEDBACK_QUESTION*/
+"FEEDBACK_QUESTION" = "Welche Informationen zu einem Wegpunkt hast du für die Community?";
+
+/*Apply*/
+"APPLY_TITLE" = "Übernehmen";
+
+/*Clear*/
+"CLEAR_TITLE" = "Eingabe löschen";
+
+/*Finished*/
+"FINISHED_TITLE" = "Fertig";
+
+/*Toilets title*/
+"TOILETS_TITLE" = "Öffentliches WC – barrierefrei";
+
+/*Bus stop title*/
+"BUS_STOP_TITLE" = "Bushaltestelle - barrierefrei";
+
+/*Tram stop title*/
+"TRAM_STOP_TITLE" = "Straßenbahnhaltestelle - barrierefrei";
+
+/*No address found.*/
+"No address found." = "Keine Adresse gefunden.";
+
+/*Enter location*/
+"ENTER_LOCATION" = "Bitte Ort eingeben";
+
+/*Routing via ...*/
+"ROUTING_TEXT" = "Routing über ...";
+/*Upto 3*/
+"bis 3" = "bis 3";
+/*Upto 6*/
+"bis 6" = "bis 6";
+/*Upto 10*/
+"bis 10" = "bis 10";
+
+/* You want to enhance the routing?*/
+"ENHANCE_ROUTING_TEXT" = "Du möchtest das Routing verbessern?";
+
+/* You want to enhance the routing?*/
+"ENHANCE_ROUTING_TEXT_LINE1" = "Du möchtest das";
+
+/* You want to enhance the routing?*/
+"ENHANCE_ROUTING_TEXT_LINE2" = "Routing verbessern?";
+
+/*Tell us where you are!*/
+"TELL_US_TEXT" = "Sag uns wo du bist!";
+
+/*Do you want to give
+ feedback for a certain way?*/
+"FEEDBACK_QUES_TEXT" = "Möchtest du Informationen zu einer Strecke eingeben?";
+
+/*Nein: Nur Information zu einem Ort*/
+"NO_ANSWER_TEXT"    = "Nein: Nur Information zu einem Ort";
+
+/*YES_ANSWER_TEXT */
+"YES_ANSWER_TEXT"   = "Ja: Bitte Ziel eingeben:";
+
+/*Start Title*/
+"START_TITLE" = "Anfang";
+
+/*Yes*/
+"YES_TITLE" = "Ja";
+/*No*/
+"NO_TITLE" = "Nein";
+
+"1.2" = "1,2";
+"2.4" = "2,4";
+"35.4" = "35,4";
+"90" = "90";
+/*Home Title*/
+"HOME_TITLE" = "Zurück zum Routing";
+
+/*Please choose*/
+"PLEASE_CHOOSE_TEXT" = "bitte auswählen";
+
+/*METER*/
+"METER" = "m";
+
+"CM" = "cm";
+
+/*ENHANCE_TEXT*/
+"ENHANCE_TEXT" = "Hilf uns bitte, Daten für diesen Abschnitt zu verbessern!";
+
+/*SORRY_TEXT*/
+"SORRY_TEXT" = "leider nein!";
+
+/*Look closer*/
+"LOOK_CLOSER_TEXT_NODE" = "Es geht um folgenden Abschnitt.";
+
+"LOOK_CLOSER_TEXT_WAY" = "Es geht um folgenden Abschnitt.";
+/*Following correct*/
+"FOLLOWING_CORRECT_TEXT" = "Stimmen folgende Informationen?";
+
+/*Next time*/
+"NEXT_TIME_TEXT" = "Schade, vielleicht beim nächsten Mal!";
+
+/*Imprint*/
+"IMPRINT_DETAIL" = "Impressum\nStadt Heidelberg\nMarktplatz 10\n69117 Heidelberg\n\nDanksagung\nProjekt wurde realisiert im Rahmen „Städte\nund Gemeinde 4.0 – Future Communities“\ndurch eine Förderung des Ministerium für\nInneres, Digitales und Migration Baden-Württemberg.\n\nProjektinitiatoren\nStadt Heidelberg (www.heidelberg.de)\nUniversität Heidelberg – GIScience\m(https://openrouteservice.org)\n\nApp-Entwicklung\nMatch Rider UG, Heidelberg\n(www.matchrider.de)\n\nSensorische Datenerfassung\nStreetguard GmbH (www.wolfert-gmbh.de)";
+
+"IMPRINT_DETAIL_PART_1" = "Impressum\nStadt Heidelberg\nMarktplatz 10\n69117 Heidelberg\n\nDanksagung\nProjekt wurde realisiert im Rahmen „Städte\nund Gemeinde 4.0 – Future Communities“\ndurch eine Förderung des Ministerium für\nInneres, Digitales und Migration Baden-Württemberg.\n\nProjektinitiatoren\nStadt Heidelberg (www.heidelberg.de)\n";
+
+"IMPRINT_DETAIL_PART_2" = "Universität Heidelberg – GIScience\n(https://openrouteservice.org)\n\n";
+"IMPRINT_DETAIL_PART_3" = "App-Entwicklung\nMatch Rider UG, Heidelberg\n(www.matchrider.de)\n\n";
+"IMPRINT_DETAIL_PART_4" = "Sensorische Datenerfassung\nStreetguard GmbH (www.wolfert-gmbh.de)";
+
+/*TEXT*/
+"TEXT" = "Dein Text";
+
+/*LOG_OUT*/
+"LOG_OUT" = "Ausloggen";
+
+/*VALID_WAYS*/
+"VALID_WAYS" = "Überprüfte";
+
+/*IN VALID_WAYS*/
+"IN_VALID_WAYS" = "Nicht überprüfte";
+
+"LOGIN_WITH_OSM" = "Bei OpenStreetMap einloggen";
+
+"OPTIONS" = "Dateneingabe";
+
+"SEND" = "Absenden";
+
+"COMING_SOON" = "Demnächst";
+
+"VERIFIED" = "Validiert";
+
+/*INTERNET_MESSAGE*/
+"INTERNET_MESSAGE" = "Du bist nicht mit dem Internet verbunden. Bitte prüfe deine Verbindung";
+
+"Instructions" = "Wegführung";
+
+"0.9" = "0,9";
+
+"PARKING_TITLE" = "Behindertenparkplatz";
+
+"NODE" = "Knoten";
+"WAY" = "Wege";
+
+"LOGOUT_MESSAGE" = "Möchten Sie sich wirklich abmelden?";
+
+"DATA_NOT_SAVED" = "Deine Eingabe konnte nicht gespeichert werden.";
+"SOME_ERROR_OCCURED" = "Etwas ist schief gelaufen! Bitte versuchen Sie es später erneut.";
+"Alert" = "Aufmerksam";
+
+//FILTER SCREEN VALUES
+/*SERVER VALUES*/
+
+/*Surface Type*/
+"SURFACE_TYPE" = "Oberflächentyp";
+
+/*Maximum Sloped Curb*/
+"MAXIMUM_SLOPED_CURB" = "Maximale Bordsteinkantenhöhe (m)";
+
+/*Maximum Incline*/
+"MAXIMUM_INCLINE" = "Maximale Steigung (%)";
+
+/*Sidewalk width*/
+"SIDEWALK_WIDTH" = "Gehwegbreite (m)";
+//Surface Type Options
+"SURFACE_OPTIONS_ONE"    = "Asphaltiert oder Beton";
+"SURFACE_OPTIONS_TWO"    = "Pflastersteine oder besser";
+"SURFACE_OPTIONS_THREE"  = "Kopfsteinpflaster oder besser";
+"SURFACE_OPTIONS_FOUR"   = "Schotter oder besser";
+"SURFACE_OPTIONS_FIVE"   = "Alle Oberflächen";
+
+//Surface Type Options
+"SURFACE_VALUE_ONE"    = "concrete";
+"SURFACE_VALUE_TWO"    = "paving_stones";
+"SURFACE_VALUE_THREE"  = "cobblestone";
+"SURFACE_VALUE_FOUR"   = "compacted";
+"SURFACE_VALUE_FIVE"   = "any";
+
+//Maximum Sloped Curb
+"SLOPED_OPTIONS_ONE"    = "kein Bordstein";
+"SLOPED_OPTIONS_TWO"    = "0.03 m";
+"SLOPED_OPTIONS_THREE"  = "0.06 m";
+"SLOPED_OPTIONS_FOUR"   = "über 0.06 m";
+
+"SLOPED_VALUE_ONE"    = "0";
+"SLOPED_VALUE_TWO"    = "0.03";
+"SLOPED_VALUE_THREE"  = "0.06";
+"SLOPED_VALUE_FOUR"   = "0.1";
+
+//Maximum Incline
+"INCLINE_VALUE_ONE"    = "0";
+"INCLINE_VALUE_TWO"    = "3";
+"INCLINE_VALUE_THREE"  = "6";
+"INCLINE_VALUE_FOUR"   = "10";
+"INCLINE_VALUE_FIVE"   = "";
+//Maximum Incline
+"INCLINE_OPTIONS_ONE"    = "keine Steigung";
+"INCLINE_OPTIONS_TWO"    = "bis 3%";
+"INCLINE_OPTIONS_THREE"  = "bis 6%";
+"INCLINE_OPTIONS_FOUR"   = "bis 10%";
+"INCLINE_OPTIONS_FIVE"   = "Jede Steigung";
+
+//Width Options
+"WIDTH_VALUE_ONE" = "0.9";
+"WIDTH_VALUE_TWO" = "";
+//Width Options
+
+"WIDTH_OPTIONS_ONE" = "über 0,9 m";
+"WIDTH_OPTIONS_TWO" = "unter 0,9 m";
+
+
+//----------------------------------------------------------------------------------------
+//VALIDATION SCREEN VALUES
+
+
+"SURFACE_TYPE_TITLE" = "Oberflächentyp";
+"INCLINE_TITLE" = "Maximale Steigung (%)";
+"WIDTH_TITLE" = "Gehwegbreite (m)";
+
+//Surface Type Values
+"SURFACE_OSM_OPTION_ONE"    = "Asphaltiert";
+"SURFACE_OSM_OPTION_TWO"    = "Beton";
+"SURFACE_OSM_OPTION_THREE"  = "Pflastersteine";
+"SURFACE_OSM_OPTION_FOUR"   = "Kopfsteinpflaster";
+"SURFACE_OSM_OPTION_FIVE"   = "Schotter";//oder besser
+
+//Surface Type Options
+"SURFACE_OSM_VALUE_ONE"    = "asphalt";
+"SURFACE_OSM_VALUE_TWO"    = "concrete";
+"SURFACE_OSM_VALUE_THREE"  = "paving_stones";
+"SURFACE_OSM_VALUE_FOUR"   = "cobblestone";
+"SURFACE_OSM_VALUE_FIVE"   = "compacted";
+
+
+//Width Values
+"INCLINE_OSM_VALUE_ZERO"   = "0%";
+"INCLINE_OSM_VALUE_ONE"    = "1%";
+"INCLINE_OSM_VALUE_TWO"    = "2%";
+"INCLINE_OSM_VALUE_THREE"  = "3%";
+"INCLINE_OSM_VALUE_FOUR"   = "4%";
+"INCLINE_OSM_VALUE_FIVE"   = "5%";
+"INCLINE_OSM_VALUE_SIX"    = "6%";
+"INCLINE_OSM_VALUE_SEVEN"  = "7%";
+"INCLINE_OSM_VALUE_EIGHT"  = "8%";
+"INCLINE_OSM_VALUE_NINE"   = "9%";
+"INCLINE_OSM_VALUE_TEN"    = "10%";
+"INCLINE_OSM_VALUE_ELEVEN" = "15%";
+
+//Width Options
+
+"INCLINE_OSM_OPTION_ZERO"   = "keine Steigung";
+"INCLINE_OSM_OPTION_ONE"    = "0% - 1%";
+"INCLINE_OSM_OPTION_TWO"    = "1% - 2%";
+"INCLINE_OSM_OPTION_THREE"  = "2% - 3%";
+"INCLINE_OSM_OPTION_FOUR"   = "3% - 4%";
+"INCLINE_OSM_OPTION_FIVE"   = "4% - 5%";
+"INCLINE_OSM_OPTION_SIX"    = "5% - 6%";
+"INCLINE_OSM_OPTION_SEVEN"  = "6% - 7%";
+"INCLINE_OSM_OPTION_EIGHT"  = "7% - 8%";
+"INCLINE_OSM_OPTION_NINE"   = "8% - 9%";
+"INCLINE_OSM_OPTION_TEN"    = "9% - 10%";
+"INCLINE_OSM_OPTION_ELEVEN" = "10% - 15%";
+
+//Incline Values
+"WIDTH_OSM_VALUE_ONE"    = "0.89";
+"WIDTH_OSM_VALUE_TWO"    = "0.91";
+
+
+//Incline Options
+"WIDTH_OSM_OPTION_ONE"    = "unter 0,9 m";
+"WIDTH_OSM_OPTION_TWO"    = "über 0,9 m";
+
+//Maximum Sloped Curb
+"SLOPED_OSM_VALUE_ONE"    = "0";
+"SLOPED_OSM_VALUE_TWO"    = "0.03";
+"SLOPED_OSM_VALUE_THREE"  = "0.06";
+"SLOPED_OSM_VALUE_FOUR"   = "0.1";
+
+"SLOPED_OSM_OPTIONS_ONE"    = "kein Bordstein";
+"SLOPED_OSM_OPTIONS_TWO"    = "0.03 m";
+"SLOPED_OSM_OPTIONS_THREE"  = "0.06 m";
+"SLOPED_OSM_OPTIONS_FOUR"   = "über 0.06 m";
+
+//Validation Message
+"MESSAGE_TO_PROCEED" = "Bitte fülle alle Werte, damit du deine Eingabe speichern kannst.";
+"OTHER_VALUE" = "Anderer Wert";
+//DIRECTION API Error Messages
+"UNABLE_TO_PARSE_JSON" = "Deine Anfrage konnte leider nicht bearbeitet werden. Bitte sende uns eine Mail über das Kontaktformular wenn das Problem noch einmal auftritt.";
+"REQUIRED_PARAMETER_MISSING" = "Bitte überprüfe deine Eingabe. Es fehlt ein Wert.";
+"INVALID_PARAMETER_FORMAT" = "Bitte überprüfe deine Eingabe. Ein Wert wurde falsch eingegeben.";
+"INVALID_PARAMETER_VALUE" = "Bitte überprüfe deine Eingabe. Ein Wert wurde falsch eingegeben.";
+"PARAMETER_VALUE_EXCEEDS" = "Bitte überprüfe deine Eingabe. Start oder Ziel befinden sich außerhalb des Routinggebiets.";
+"UNABLE_TO_PARSE_THE_REQUEST" = "Deine Anfrage konnte leider nicht bearbeitet werden. Bitte sende uns eine Mail über das Kontaktformular wenn das Problem noch einmal auftritt.";
+"UNSUPPORTED_EXPORT_FORMAT" = "Deine Anfrage konnte leider nicht bearbeitet werden. Bitte sende uns eine Mail über das Kontaktformular wenn das Problem noch einmal auftritt.";
+"EMPTY_ELEMENT" = "Bitte überprüfe deine Eingabe. Es fehlt ein Wert.";
+"UNKNOWN_INTERNAL_ERROR" = "Deine Anfrage konnte leider nicht bearbeitet werden. Bitte sende uns eine Mail über das Kontaktformular wenn das Problem noch einmal auftritt.";
+"ROUTE_NOT_FOUND" = "Route kann nicht gefunden werden.";
+
+"SIDEWAlK_LEFT" = "Gehwegseite: links";
+"SIDEWAlK_RIGHT" = "Gehwegseite: rechts";
+"SIDEWAlK_BOTH" = "Gehwegseite: beide Seiten";
+
+"EMAIL_SUBJECT" = "Anfrage App Hürdenlose Navigation";
+
+
+"HOUR" = "Std.";
+"MIN" = "Min.";

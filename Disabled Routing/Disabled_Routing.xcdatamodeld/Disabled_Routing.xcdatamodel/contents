@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RouteOptions" representedClassName="RouteOptions" syncable="YES" codeGenerationType="class">
+        <attribute name="destinationLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destinationLocationLat" optional="YES" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="destinationLocationLong" optional="YES" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isFilterApplied" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pitchOptions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pitchOptionsValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routeViaLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routeViaLocationLat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="routeViaLocationLong" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="slopedCurb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="slopedCurbValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sourceLocationLat" optional="YES" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sourceLocationLong" optional="YES" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="surfaceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surfaceTypeValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="widthValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RouteOptions" positionX="-63" positionY="-20" width="128" height="315"/>
+    </elements>
+</model>

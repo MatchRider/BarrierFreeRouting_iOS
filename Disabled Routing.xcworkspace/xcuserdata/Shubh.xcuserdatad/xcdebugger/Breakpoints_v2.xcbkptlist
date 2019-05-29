@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Disabled Routing/ApplicationViews/Login Screen/Model/LoginAPIRequest.swift"
+            timestampString = "563139563.3951451"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "makeAPIRequest(withReqFormData:errorResolver:responseCallback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Disabled Routing/Api Manager/XMLServiceManagerExtension.swift"
+            timestampString = "563092248.840091"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "requestGETWithURLXML(_:requestHeader:responseCallBack:returningClass:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Disabled Routing/ApplicationViews/Correction Screen/View/CorrectionViewController.swift"
+            timestampString = "563139563.395604"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "initialiseUnAvailableTags(inWay:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Disabled Routing/ApplicationViews/Correction Screen/View/CorrectionViewController.swift"
+            timestampString = "563139563.3957421"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "initialiseUnAvailableTags(inWay:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Disabled Routing/ApplicationViews/Correction Screen/View/CorrectionViewController.swift"
+            timestampString = "563139563.395879"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "initialiseUnAvailableTags(inWay:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Disabled Routing/ApplicationViews/Correction Screen/Presenter/CorrectionPresenter.swift"
+            timestampString = "563139563.395977"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "createUpdateWayXMLRequest(_:changeSetId:version:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[3] = Dead&gt; of Disabled_Routing.CorrectionPresenter.(createUpdateWayXMLRequest in _6965D273A182594122B5589B0091DB84)(_: Disabled_Routing.WayData, changeSetId: Swift.String, version: Swift.String) -&gt; Swift.String"
+                  moduleName = "Disabled Routing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shubh/iOS/disabled_routing_ios/Disabled%20Routing/ApplicationViews/Correction%20Screen/Presenter/CorrectionPresenter.swift"
+                  timestampString = "563139564.1340179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "720">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[3] = Dead&gt; of Disabled_Routing.CorrectionPresenter.(createUpdateWayXMLRequest in _6965D273A182594122B5589B0091DB84)(_: Disabled_Routing.WayData, changeSetId: Swift.String, version: Swift.String) -&gt; Swift.String"
+                  moduleName = "Disabled Routing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shubh/iOS/disabled_routing_ios/Disabled%20Routing/ApplicationViews/Correction%20Screen/Presenter/CorrectionPresenter.swift"
+                  timestampString = "563139564.137566"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "195"
+                  endingLineNumber = "195"
+                  offsetFromSymbolStart = "1432">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

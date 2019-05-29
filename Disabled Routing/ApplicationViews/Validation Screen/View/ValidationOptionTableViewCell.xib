@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Frutiger-LT-Std-65-Bold.ttf">
+            <string>FrutigerLTStd-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ValidationOptionTableViewCell" rowHeight="79" id="2bz-ef-5rW" customClass="ValidationOptionTableViewCell" customModule="Disabled_Routing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="79"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2bz-ef-5rW" id="JfG-ul-dzz">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="78.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OmL-53-Lpi" customClass="UIBorderView" customModule="Disabled_Routing" customModuleProvider="target">
+                        <rect key="frame" x="8" y="35.5" width="8" height="8"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="W1C-BE-H4s"/>
+                            <constraint firstAttribute="height" constant="8" id="gwm-1P-SQc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surface" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubJ-hq-wBV">
+                        <rect key="frame" x="32" y="31.5" width="261.5" height="16"/>
+                        <fontDescription key="fontDescription" name="FrutigerLTStd-Bold" family="Frutiger LT Std" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AvE-a0-5xx">
+                        <rect key="frame" x="301.5" y="4.5" width="70.5" height="70.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="AvE-a0-5xx" secondAttribute="height" multiplier="1:1" id="Ch6-2x-pJ6"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="OmL-53-Lpi" firstAttribute="centerY" secondItem="JfG-ul-dzz" secondAttribute="centerY" id="3TF-ud-vy2"/>
+                    <constraint firstItem="AvE-a0-5xx" firstAttribute="leading" secondItem="ubJ-hq-wBV" secondAttribute="trailing" constant="8" id="4W8-q7-ANm"/>
+                    <constraint firstItem="OmL-53-Lpi" firstAttribute="leading" secondItem="JfG-ul-dzz" secondAttribute="leading" constant="8" id="922-DX-hZz"/>
+                    <constraint firstAttribute="trailing" secondItem="AvE-a0-5xx" secondAttribute="trailing" constant="8" id="N7C-fJ-ftR"/>
+                    <constraint firstItem="AvE-a0-5xx" firstAttribute="height" secondItem="JfG-ul-dzz" secondAttribute="height" multiplier="0.9" id="g4V-s4-eYQ"/>
+                    <constraint firstItem="ubJ-hq-wBV" firstAttribute="centerY" secondItem="OmL-53-Lpi" secondAttribute="centerY" id="muZ-CE-btt"/>
+                    <constraint firstItem="ubJ-hq-wBV" firstAttribute="leading" secondItem="OmL-53-Lpi" secondAttribute="trailing" constant="16" id="pPB-Kk-apl"/>
+                    <constraint firstItem="AvE-a0-5xx" firstAttribute="centerY" secondItem="ubJ-hq-wBV" secondAttribute="centerY" id="wMs-5K-60y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imageViewOption" destination="AvE-a0-5xx" id="ewx-8p-7rK"/>
+                <outlet property="labelOption" destination="ubJ-hq-wBV" id="14A-N4-RMa"/>
+            </connections>
+            <point key="canvasLocation" x="36" y="-323.5"/>
+        </tableViewCell>
+    </objects>
+</document>

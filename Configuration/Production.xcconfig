@@ -1,0 +1,26 @@
+//
+//  Production.xcconfig
+//  Hürdenlose Navigation
+//
+//  Created by Hürdenlose Navigation on 07/02/18.
+//  Copyright © 2018 Hürdenlose Navigation. All rights reserved.
+//
+#include "Pods/Target Support Files/Pods-Disabled Routing/Pods-Disabled Routing.production.xcconfig"
+PRODUCT_NAME = Hürdenlose Navigation
+PRODUCT_DISPLAY_NAME = Hürdenlose Navigation
+PRODUCT_BUNDLE_IDENTIFIER = com.matchrider.disabledrouting
+PRODUCT_VERSION = 0.0.1
+APP_LANGUAGE = NSLocale.current.languageCode
+WHEEL_MAP_BASE_URL = http:/$()/wheelmap.org/
+OSM_API_BASE_URL = https:/$()/api.openstreetmap.org/api/0.6/
+BASE_URL =  https:/$()/api.openrouteservice.org
+AUTH_TOKEN = Basic c2h1YmhhbS5zYWhnYWxAZGFmZm9kaWxzdy5jb206U2h1YmhhbUAwOTEx
+DISABLED_ROUTING_BASE_URL =  https:/$()/disabledrouteapi.azurewebsites.net/DisableRoute/
+SEARCH_COUNTRY = DEU
+
+CONSUMER_KEY = t46M4A2anQb1O53J6aInLjhWpojjKuprlAg1KSDJ
+CONSUMER_SECRET = ZKJzfplM9jMtqgOLUfVKQ3O0OYWrJjC4XOFkLkNH
+REQUEST_TOKEN_URL = https:/$()/www.openstreetmap.org/oauth/request_token
+AUTHORIZE_TOKEN_URL = https:/$()/www.openstreetmap.org/oauth/authorize
+ACCESS_TOKEN_URL = https:/$()/www.openstreetmap.org/oauth/access_token
+

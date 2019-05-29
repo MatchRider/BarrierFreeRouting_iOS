@@ -1,0 +1,6 @@
+framework module Pods_Disabled_Routing {
+  umbrella header "Pods-Disabled Routing-umbrella.h"
+
+  export *
+  module * { export * }
+}

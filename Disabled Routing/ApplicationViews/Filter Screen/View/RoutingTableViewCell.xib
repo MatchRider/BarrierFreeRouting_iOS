@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RoutingTableViewCell" rowHeight="365" id="U9w-ar-cBZ" customClass="RoutingTableViewCell" customModule="Disabled_Routing" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="365"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U9w-ar-cBZ" id="EMa-Mi-pJ2">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="364.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Routing Via :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9IZ-9s-ItR" customClass="CustomLocationSearchTextField" customModule="Disabled_Routing" customModuleProvider="target">
+                        <rect key="frame" x="8" y="0.0" width="398" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="kKx-WW-ViY"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ATK-pP-ICw">
+                        <rect key="frame" x="16" y="40" width="390" height="324.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ATK-pP-ICw" secondAttribute="bottom" id="6HL-Yj-OAt"/>
+                    <constraint firstItem="9IZ-9s-ItR" firstAttribute="top" secondItem="EMa-Mi-pJ2" secondAttribute="top" id="Maf-tQ-ZbT"/>
+                    <constraint firstAttribute="trailing" secondItem="ATK-pP-ICw" secondAttribute="trailing" constant="8" id="QcD-DE-U62"/>
+                    <constraint firstItem="9IZ-9s-ItR" firstAttribute="leading" secondItem="EMa-Mi-pJ2" secondAttribute="leading" constant="8" id="ROl-Ld-QeQ"/>
+                    <constraint firstAttribute="trailing" secondItem="9IZ-9s-ItR" secondAttribute="trailing" constant="8" id="a7K-xM-PGz"/>
+                    <constraint firstItem="ATK-pP-ICw" firstAttribute="leading" secondItem="EMa-Mi-pJ2" secondAttribute="leading" constant="16" id="c5K-ZN-Net"/>
+                    <constraint firstItem="ATK-pP-ICw" firstAttribute="top" secondItem="9IZ-9s-ItR" secondAttribute="bottom" id="mV1-Up-TrT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tableViewPlaces" destination="ATK-pP-ICw" id="A2K-oe-NzJ"/>
+                <outlet property="textFieldRouteWia" destination="9IZ-9s-ItR" id="Zxv-yP-2YP"/>
+            </connections>
+            <point key="canvasLocation" x="-13" y="-127.5"/>
+        </tableViewCell>
+    </objects>
+</document>
