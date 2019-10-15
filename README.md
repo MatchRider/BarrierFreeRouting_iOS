@@ -1,29 +1,10 @@
-# README #
+# BarrierFreeRouting_iOS #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+(1) Die Match Rider UG stellt den Code auf Basis der Lizenz „Datenlizenz Deutschland – Namensnennung – Version 2.0" (dl-de/by-2-0) als Open Source zur kommerziellen und nicht kommerziellen Nutzung zur Verfügung. Details zu diesem Lizenzmodell entnehmen Sie bitte der Homepage des Datenportals für Deutschland ⇒GOVDATA.
+
+(2) Gemäß der Bereitstellung auf Basis der "Datenlizenz Deutschland - Namensnennung Version 2.0" ist die Match Rider UG bei jeder Nutzung des Codes als Quelle zu nennen, ebenfalls sind Veränderungen der Daten zu kennzeichnen.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Collaboration project with the city of Heidelberg and GIScience to develop an iOS and Android App to help the disabled navigate our cities and urban areas.
+* Version 1.0
